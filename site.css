@@ -1,0 +1,122 @@
+html {
+  background: url(bannière.png) ;
+  background-size: 1550px 300px;
+  background-repeat: no-repeat;
+}
+
+
+body
+{
+  margin: 10px 0 ;
+  font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+}
+
+img{
+  height: 305px;
+  float: left;
+  border-radius: 400px;
+}
+
+address {
+  background-color: #e6fff9 ;
+}
+
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+
+h3 {
+  text-align: left;
+  color: black;
+}
+
+h4 {
+  text-align: left;
+  color: black;
+}
+
+
+ ul.navbar li {
+    margin: 0.5em 0;
+    padding: 0.3em;}
+  ul.navbar a {
+    text-decoration: none }
+  a:visited {
+    color: black; }
+
+.navbar {
+    display: flex;
+    padding:0;
+}
+
+.navbar li {
+    list-style-type: none ;
+}
+
+
+.navbar a {
+    display:block;
+    min-width: 278px;
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+.navbar {
+    display: flex;
+    padding:0;
+    justify-content: center
+}
+
+.navbar a:hover {
+  background-color: #E6F9FB;
+  color: #A0B1FF;
+  border-color: #A0B1FF;
+}
+
+{box-sizing: border-box}
+
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
+

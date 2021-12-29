@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <center><title>Passion</title><center>
+
+<ul class="navbar">
+  <li><a href="site.html">Home</a>
+  <li><a href="CV.html">CV</a>
+  <li><a href="passion.html">Passion</a>
+  <li><a href="projet.html">Projet</a>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+<style>
+
+html {
+  background: url(bannière2.png) ;
+  background-size: 1550px 230px;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+body
+{
+  margin: 10px 0 ;
+  font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+}
+
+ ul.navbar li {
+    margin: 0.5em 0;
+    padding: 0.3em;}
+  ul.navbar a {
+    text-decoration: none }
+  a:visited {
+    color: #004d39;
+     }
+
+.navbar {
+    display: flex;
+    padding:0;
+}
+
+.navbar li {
+    list-style-type: none ;
+}
+
+
+.navbar a {
+    display:block;
+    min-width: 278px;
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+.navbar {
+    display: flex;
+    padding:0;
+    justify-content: center
+}
+
+.navbar a:hover {
+  background-color: #E6F9FB;
+  color: #A0B1FF;
+  border-color: #A0B1FF;
+}
+
+{box-sizing: border-box}
+
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+</style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="Dessin.html">Dessin</a>
+    <a href="Lecture.html">Lecture</a>
+    <a href="musique.html">Musique</a>
+    <a href="Animation.html">Animation</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Mes passions</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.display = "none";
+}
+</script>
+     
+     <style>
+
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #00b386;
+  font-family: serif;
+}
+
+
+p {
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+img {
+ max-width: 100%;
+ max-height: 100%;
+}
+.ava {
+ height: 400px;
+ width: 400px;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br>
+
+<div class="ava">
+<img src="avatar 2.gif" alt="moi2">
+</div>
+
+
+<h2>Voici quelques unes de mes passions. J'ai regroupé plusieurs projets fait dans chaque domaine.</h2>
+
+</body>
+</html>
+
+
