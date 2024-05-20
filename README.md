@@ -38,6 +38,6 @@ Vous pouvez visualiser le site en ligne ici : [Lien vers le site](https://dounia
 
 ## Contact
 
-Pour toute question ou suggestion, vous pouvez me contacter via [mon email](mailto:votre-email@example.com) ou me suivre sur [Twitter](https://twitter.com/votre-utilisateur).
+Pour toute question ou suggestion, vous pouvez me contacter via [mon email](mailto:dounia.hullot@gmail.com)
 
 Merci d'avoir visité mon dépôt !
