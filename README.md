@@ -4,6 +4,9 @@
 
 Ce site web est conçu pour fournir une introduction complète à qui je suis. Il inclut les sections suivantes :
 
+![image](https://github.com/Douniahlt/Douniahlt.github.io/assets/96797248/4b0cbfb7-93ea-44a3-ae89-91672ef8bcea)
+
+
 ### Accueil
 
 
